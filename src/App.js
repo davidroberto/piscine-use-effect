@@ -1,7 +1,7 @@
-import ArticleList from "./ArticleList";
+import MealList from "./MealList";
 
 function App() {
-  return <ArticleList />;
+  return <MealList />;
 }
 
 export default App;
