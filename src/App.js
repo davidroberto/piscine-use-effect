@@ -1,7 +1,13 @@
 import MealList from "./MealList";
+import RandomMeal from "./RandomMeal";
 
 function App() {
-  return <MealList />;
+  return (
+    <div>
+      <RandomMeal />
+      {/* <MealList /> */}
+    </div>
+  );
 }
 
 export default App;
